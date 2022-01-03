@@ -16,8 +16,7 @@ December 2021
 ### (3)	Run on the HPC
     a. log into HPC 
     b. in the codebuilder, copy line 23 "paste to command line:"
- 
- 
-## Example output
 
-<a href="url"><img src="bedCovComp.png" align="middle" height="96" width="48" ></a>    
+## Example output
+<a href="https://github.com/guvp2017/ChIPseqPipe/blob/master/bedCovComp/bedCovCompExample.png"> 
+<p align="center"> <img width="400" height="800" src="bedCovCompExample.png"></p>
