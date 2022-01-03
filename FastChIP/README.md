@@ -2,9 +2,12 @@
 ![Alt text](pipeline_workflow_v0.0.png?raw=true "Title")
 ### Procedures
 - bwa alignment of hg38 and spike-ins if any (mm10, ecoli)
-  - chipseq-spikein.sh produces spikein_summary.txt
-- IGV input (tdf files): .tdf (without spike-in) SPK.tdf (spike-in normalized)
-
+- chipseq-spikein.sh : make a spike-in summary and tdf files 
+  - SpikeIn/spike_map_summary
+  - *.SPK.tdf (spike-in normalized)
+- peak finding:
+  - MAC_p-[4/5/7/14] results
+    - ROSE results per MAC result
 
 ## Usage 
 ```
