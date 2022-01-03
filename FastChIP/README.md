@@ -29,6 +29,12 @@ run-fastchip.sh input.txt
 ## output structure
 HOME=/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/DATA
 $HOME/22Rv1_BG15n_AR_073021_CWRU/
+|22Rv1_BG15n_AR_073021_CWRU.bam
+|22Rv1_BG15n_AR_073021_CWRU.bam.bai
+|22Rv1_BG15n_AR_073021_CWRU_eco.bam
+|22Rv1_BG15n_AR_073021_CWRU_eco.bam.bai
+|22Rv1_BG15n_AR_073021_CWRU_eco.flagstat.txt
+|22Rv1_BG15n_AR_073021_CWRU.flagstat.txt
 ├── Fastqc
 │   ├── 22Rv1_BG15n_AR_073021_CWRU_R1_fastqc
 │   │   ├── Icons
@@ -37,10 +43,24 @@ $HOME/22Rv1_BG15n_AR_073021_CWRU/
 │       ├── Icons
 │       └── Images
 ├── MACS_p-14
+        22Rv1_BG15n_AR_073021_CWRU.clean.bed
+        22Rv1_BG15n_AR_073021_CWRU.nobl.bed
+        22Rv1_BG15n_AR_073021_CWRU.p-14.bed
+        22Rv1_BG15n_AR_073021_CWRU_p-14.clean.bed
+        22Rv1_BG15n_AR_073021_CWRU_peaks.narrowPeak
+        22Rv1_BG15n_AR_073021_CWRU_peaks.xls
+        22Rv1_BG15n_AR_073021_CWRU_summits.bed
 │   ├── 22Rv1_BG15n_AR_073021_CWRU_motifs
 │   │   ├── homerResults
 │   │   └── knownResults
 │   └── ROSE
+        22Rv1_BG15n_AR_073021_CWRU_12KB_STITCHED_TSS_DISTAL_ENHANCER_REGION_MAP.txt
+        22Rv1_BG15n_AR_073021_CWRU_AllEnhancers.table.txt
+        22Rv1_BG15n_AR_073021_CWRU_Enhancers_withSuper.bed
+        22Rv1_BG15n_AR_073021_CWRU_Gateway_Enhancers.bed
+        22Rv1_BG15n_AR_073021_CWRU_Gateway_SuperEnhancers.bed
+        22Rv1_BG15n_AR_073021_CWRU_Plot_points.png
+        22Rv1_BG15n_AR_073021_CWRU_SuperEnhancers.table.txt
 │       ├── gff
 │       └── mappedGFF
 ├── MACS_p-5
@@ -57,7 +77,7 @@ $HOME/22Rv1_BG15n_AR_073021_CWRU/
 │   └── ROSE
 │       ├── gff
 │       └── mappedGFF
-└── SpikeIn
+└── SpikeIn/spike_map_summary
 
 ```
 
