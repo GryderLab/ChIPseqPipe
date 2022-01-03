@@ -9,9 +9,18 @@ read-xls.sh | grep <sample_name> > input.txt
 run-fastChIP.pl input.txt
 ```
 
-## Output Examples
+## Examples Runs
 ```
-22Rv1_BG15n_AR_073021_CWRU/
+## extract sample input
+bash read-xlsx.sh | grep 22Rv1_BG15n_AR_073021_CWRU > input.txt
+# input.txt: 22Rv1_BG15n_AR_073021_CWRU      073021_CWRU     ecoli   .
+
+## run the pipeline
+run-fastchip.sh input.txt
+
+## output structure
+HOME=/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/DATA
+$HOME/22Rv1_BG15n_AR_073021_CWRU/
 ├── Fastqc
 │   ├── 22Rv1_BG15n_AR_073021_CWRU_R1_fastqc
 │   │   ├── Icons
