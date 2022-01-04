@@ -1,6 +1,9 @@
 ## Pipeline Overview
 ![Alt text](pipeline_workflow_v0.0.png?raw=true "Title")
+https://docs.google.com/presentation/d/1adXiUHnZrGXjRVzkhA5Axf-_3vq68lwuD4sARz4DEjI/edit#slide=id.p
+
 ![Alt text](example_rose.png?raw=true "Title")
+
 ### Procedures
 - bwa alignment of hg38 and spike-ins if any (mm10, ecoli)
 - chipseq-spikein.sh : make a spike-in summary and tdf files 
