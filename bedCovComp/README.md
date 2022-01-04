@@ -9,14 +9,17 @@ December 2021
 ### (2)	Configure bedCovComp
     a.  Use codebuilder, go to the “bedCov_Spiked” tab.  
         Gryder Lab location: \\ads.case.edu\rc\SOM_GENE_BEG33\ChIP_seq\hg38\scripts\multisample_analysis\bedCovComp_builder.xlsx
-        Github copy: 
+        Github copy: <a href="https://github.com/GryderLab/ChIPseqPipe/blob/master/bedCovComp/bedCovComp_builder.xlsx">  
     b.  Add your sample names, sample file names, MACS p value (ie, p-14)
     c.  Select a bed file to split the data by an overlapping feature (ie, TSS)
     
 ### (3)	Run on the HPC
-    a. log into HPC 
-    b. in the codebuilder, copy line 23 "paste to command line:"
+    a. log into HPC and navigate to working directory (/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/projects/ARIA/bedCovComp) 
+    b. in the codebuilder, copy line 23 "paste to command line:" and run 
 
-## Example output
+### (4) Example output
+    a. The output files are genearted in the project folder (e.g.: "/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/projects/ARIA/bedCovComp/")
+    b. The plot files include deltaboxplot, logCovboxplot, MA, l2fcboxplot, peaksizes, and rankl2FC.
+    c. Example plots (peaksize and rankl2FC) are shown below).
 <a href="https://github.com/guvp2017/ChIPseqPipe/blob/master/bedCovComp/bedCovCompExample.png"> 
 <p align="center"> <img width="400" height="800" src="bedCovCompExample.png"></p>
