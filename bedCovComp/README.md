@@ -21,5 +21,5 @@ December 2021
     a. The output files are genearted in the project folder (e.g.: "/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/projects/ARIA/bedCovComp/")
     b. The plot files include deltaboxplot, logCovboxplot, MA, l2fcboxplot, peaksizes, and rankl2FC.
     c. Example plots (peaksize and rankl2FC) are shown below).
-<a href="https://github.com/guvp2017/ChIPseqPipe/blob/master/bedCovComp/bedCovCompExample.png"> 
+<a href="https://github.com/guvp2017/ChIPseqPipe/blob/master/bedCovComp/bedCovCompExample.PNG"> 
 <p align="center"> <img width="400" height="800" src="bedCovCompExample.png"></p>
