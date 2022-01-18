@@ -7,6 +7,7 @@ https://github.com/GryderLab/ChIPseqPipe/tree/master/FastChIP
 added by Berkley E. Gryder, December 2021
 
 Scripts and code protocol for bedCovComp ChIP-seq or CUT&RUN data
+
 https://github.com/GryderLab/ChIPseqPipe/tree/master/bedCovComp
 <a href="https://github.com/GryderLab/ChIPseqPipe/blob/master/"><img src="bedCovComp/bedCovCompExample.PNG" width="600"/></a>
 
