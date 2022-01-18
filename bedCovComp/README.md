@@ -22,4 +22,4 @@ December 2021
     b. The plot files include deltaboxplot, logCovboxplot, MA, l2fcboxplot, peaksizes, and rankl2FC.
     c. Example plots (peaksize and rankl2FC) are shown below).
 <a href="https://github.com/guvp2017/ChIPseqPipe/blob/master/bedCovComp/bedCovCompExample.PNG"> 
-<p align="center"> <img width="400" height="800" src="bedCovCompExample.png"></p>
+<p align="center"> <img width="400" height="800" src="bedCovCompExample.PNG"></p>
