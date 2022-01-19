@@ -18,7 +18,8 @@ https://docs.google.com/presentation/d/1adXiUHnZrGXjRVzkhA5Axf-_3vq68lwuD4sARz4D
 ## select sample to run
 read-xls.sh | grep <sample_name> > input.txt
 ## Run pipeline
-run-fastChIP.pl input.txt
+bash ../scripts/run-fastchip.sh input.txt
+
 ```
 
 ## Examples Runs
@@ -28,7 +29,7 @@ bash read-xlsx.sh | grep 22Rv1_BG15n_AR_073021_CWRU > input.txt
 # input.txt: 22Rv1_BG15n_AR_073021_CWRU      073021_CWRU     ecoli   .
 
 ## run the pipeline
-run-fastchip.sh input.txt
+bash ../scripts/run-fastchip.sh input.txt
 
 ## output structure
 HOME=/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/DATA
