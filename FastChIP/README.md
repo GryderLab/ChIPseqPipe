@@ -1,6 +1,6 @@
 ## Pipeline Overview
-![Alt text](pipeline_workflow_v0.0.png?raw=true "Title")
-https://docs.google.com/presentation/d/1adXiUHnZrGXjRVzkhA5Axf-_3vq68lwuD4sARz4DEjI/edit#slide=id.p
+<img width="1026" alt="FastChIP" src="https://user-images.githubusercontent.com/11543307/151046589-f7ca7c72-581b-40c0-b357-d5c1ce4df20b.PNG">
+
 
 ![Alt text](example_rose.png?raw=true "Title")
 
