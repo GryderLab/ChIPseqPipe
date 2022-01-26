@@ -11,7 +11,7 @@ December 2021
         Gryder Lab location: \\ads.case.edu\rc\SOM_GENE_BEG33\ChIP_seq\hg38\scripts\multisample_analysis\bedCovComp_builder.xlsx
         Github copy: <a href="https://github.com/GryderLab/ChIPseqPipe/blob/master/bedCovComp/bedCovComp_builder.xlsx">  
     b.  Add your sample names, sample file names, MACS p value (ie, p-14)
-    c.  Select a bed file to split the data by an overlapping feature (ie, TSS)
+    c.  Select a bed file to split the data by an overlapping feature (ie, TSS bed file, a bed file of clusters, or TF binding peaks)
     
 ### (3)	Run on the HPC
     a. log into HPC and navigate to working directory (/mnt/rstor/SOM_GENE_BEG33/ChIP_seq/hg38/projects/ARIA/bedCovComp) 
